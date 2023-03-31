@@ -160,3 +160,10 @@
 .img_Text .slick-dots li.slick-active button{
     background-color: #f00;
 }
+
+@media (min-width: 1190px) and (max-width: 1619px){
+    .img_Text{
+        max-width: 1190px;
+    }
+
+}

@@ -566,6 +566,32 @@
   .wrap .contents_03 .contents_zoon_03 {
     width: 80%;
   }
+  .wrap .contents_03 .contents_zoon_03 .img_Text_03 figure figcaption {
+    font-size: 24px;
+    word-break: keep-all;
+  }
+  .wrap .contents_03 .contents_zoon_03 .img_Text_03 .slick-prev {
+    left: 88%;
+  }
+  .wrap .content_04_h2 {
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  .wrap .content_04_h2 h2 {
+    font-size: 38px;
+  }
+  .wrap .content_04_h2 p {
+    display: none;
+  }
+  .wrap .content_04_h2 h3 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .wrap .contents_04_zoon {
+    width: 80% !important;
+  }
   .wrap .swiper-button-prev {
     left: -10px !important;
   }

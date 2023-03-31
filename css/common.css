@@ -86,12 +86,15 @@ header .list a {
   font-size: 22px;
   margin-right: 35px;
 }
+header .list a:hover {
+  color: #F8991C;
+}
 header .list a:hover::after {
   content: "";
   display: block;
   width: 100%;
   padding-bottom: 5px;
-  border-bottom: 3px solid #337885;
+  border-bottom: 3px solid #F8991C;
 }
 header .icon {
   display: flex;
@@ -417,4 +420,23 @@ footer .inner .footer-massage {
 .aside_right p img {
   width: 45px;
   transform: translate(4px, -3px);
+}
+
+@media (min-width: 1190px) and (max-width: 1619px) {
+  header .head .logo {
+    width: 15%;
+  }
+  header .head .logo a img {
+    margin-right: 0;
+  }
+  header .list {
+    width: 60%;
+  }
+  header .list a {
+    font-size: 20px;
+    margin-right: 18px;
+  }
+  header .icon {
+    width: 15%;
+  }
 }/*# sourceMappingURL=common.css.map */

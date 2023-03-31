@@ -648,9 +648,9 @@ main {
 // -------------------------------------------------------------------------------------------------------------------------------------
 
 @media (max-width:1920px) {
-    .visual {
-        max-width: 1920px;
-    }
+   .wrap{
+    width: 1920px;
+   }
 
     .contents_02 {
         height: 100vh;
@@ -669,9 +669,9 @@ main {
 }
 
 @media (max-width:1600px) {
-    .visual {
-        max-width: 1600px;
-    }
+    .wrap{
+        width: 1600px;
+       }
 
     .contents_02 {
         height: 100vh;

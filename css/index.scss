@@ -801,7 +801,169 @@
     }
 
 }
-@media (min-width: 777px) and (max-width: 1189px){}
+@media (min-width: 777px) and (max-width: 1189px){
+    .wrap {
+        header {
+            .header-b {
+                justify-content: flex-end;
+                .header_Middle {
+                    display: none;
+                    ul {
+                        li {
+                        }
+                    }
+                }
+            }
+        }
+        .visual{
+            .contents{
+                .Text{
+                    .Top_text{
+                        p{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            .content_01 {
+                padding: 0;
+
+                .contents_zoon_01 {
+                    .text_01 {
+                        width: 50%;
+
+                        .text_h2 {
+                            strong {
+                                font-size: 34px;
+                            }
+
+                            p {
+                                display: none;
+                            }
+                        }
+
+                        h2 {
+                            font-size: 22px;
+                        }
+
+                        .small {
+                            p {
+                                font-size: 16px;
+                            }
+                            button{
+                                width: 100px;
+                                height: 50px;
+                            }
+                        }
+                    }
+
+                    .content_01_img {
+                        width: 50%;
+                        padding: 400px 0;
+                        figure {
+                            img {
+                                width: 80%;
+                            }
+                        }
+
+                        .hover {
+                            top: 530px;
+                            right: -100px;
+                            img {
+                                width: 40%;
+                            }
+
+                            p {
+                                font-size: 25px;
+                                transform: translate(90px, 145px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .contents_02 {
+            height: 100vh;
+            width: 80%;
+            margin: 0 auto;
+
+            .contents_zoon_02 {}
+
+            .img_Text_01 {
+                display: none;
+            }
+        }
+
+        .content_03_h2 {
+            padding-top: 0;
+            padding-bottom: 30px;
+
+            .flex {
+                h2 {
+                    font-size: 38px;
+                }
+
+                p {
+                    display: none;
+                }
+
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+        
+
+        .contents_03 {
+            .contents_zoon_03{
+                width: 80%;
+
+                .img_Text_03 {
+
+                    figure {
+                        figcaption{
+                            font-size: 24px;
+                            word-break:keep-all;
+                        }
+                    }
+
+                    .slick-prev {
+                        left: 88%;
+                    }
+
+                }
+            }
+        }
+        .content_04_h2{
+            width: 72%;
+            margin: 0 auto;
+            padding-top: 70px;
+            padding-bottom: 60px;
+            h2{
+                font-size: 38px;
+            }
+            p{
+                display: none;
+            }
+            h3{
+                font-weight: 500;
+                font-size: 25px;
+            }
+        }
+        .contents_04_zoon{
+            width: 80% !important;
+        }
+
+
+        .swiper-button-prev {
+            left: -10px !important;
+        }
+    }
+}
 
 @media (max-width: 767px) {}
 

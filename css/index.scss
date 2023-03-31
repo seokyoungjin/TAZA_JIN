@@ -901,105 +901,243 @@
                     }
                 }
             }
-        }
 
-        .contents_02 {
-            height: 100vh;
-            width: 80%;
-            margin: 0 auto;
+            .contents_02 {
+                // height: 100vh;
+                width: 80%;
+                margin: 0 auto;
+                padding-bottom: 70%;
 
-            .contents_zoon_02 {}
+                .img_tittle {
+                    height: 500px;
+                    width: 150px;
+                    padding-left: 0;
+                    padding-top: 0;
 
-            .img_Text_01 {
-                display: none;
+                    h2 {
+                        margin-top: 180px;
+                        font-size: 30px;
+                        margin-left: 20px;
+                    }
+
+                    figure {
+                        display: none;
+                    }
+
+                    figcaption {
+                        font-size: 30px;
+                        margin-left: 20px;
+                    }
+                }
+
+                .contents_zoon_02 {
+                    .img_Text {
+                        width: 400px;
+                        height: 500px;
+
+                        .mini_bike_icon {
+                            left: 180px
+                        }
+
+                        .img_Text_02 {
+                            width: 90%;
+
+                            figure {
+                                figcaption {
+                                    padding: 6px 0;
+
+                                    p {
+                                        font-size: 20px;
+                                    }
+
+                                    small {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .img_Text_01 {
+                    display: none;
+                }
             }
-        }
 
-        .content_03_h2 {
-            padding-top: 0;
-            padding-bottom: 30px;
+            .content_03_h2 {
+                padding-top: 0;
+                padding-bottom: 30px;
 
-            .flex {
+                .flex {
+                    h2 {
+                        font-size: 34px;
+                    }
+
+                    p {
+                        display: none;
+                    }
+
+                }
+
+                h3 {
+                    font-size: 22px;
+                }
+            }
+
+
+            .contents_03 {
+                .contents_zoon_03 {
+                    width: 80%;
+
+                    .img_Text_03 {
+                        padding-top: 110px;
+
+                        figure {
+                            figcaption {
+                                font-size: 20px;
+                                word-break: keep-all;
+                            }
+                        }
+
+                        .slick-prev {
+                            left: 75%;
+                        }
+
+                        .slick-next {
+                            right: 10%;
+                        }
+                    }
+                }
+            }
+
+            .content_04_h2 {
+                width: 80%;
+                margin: 0 auto;
+                padding-top: 70px;
+                padding-bottom: 60px;
+
                 h2 {
-                    font-size: 34px;
+                    font-size: 34px !important;
                 }
 
                 p {
                     display: none;
                 }
 
+                h3 {
+                    font-weight: 500;
+                    font-size: 20px !important;
+                }
             }
 
-            h3 {
-                font-size: 22px;
-            }
-        }
+            .contents_04 {
+                padding-bottom: 10%;
 
-
-        .contents_03 {
-            .contents_zoon_03 {
-                width: 80%;
-
-                .img_Text_03 {
-                    padding-top: 110px;
+                .contents_04_zoon {
+                    width: 80%;
+                    margin: 0 auto;
+                    display: block;
 
                     figure {
-                        figcaption {
-                            font-size: 20px;
-                            word-break: keep-all;
+                        width: 100%;
+
+                        img {
+                            width: 70%;
                         }
                     }
 
-                    .slick-prev {
-                        left: 75%;
-                    }
+                    .contents_Text {
+                        padding-top: 10%;
+                        width: 100%;
 
-                    .slick-next {
-                        right: 10%;
+                        h2 {
+                            font-size: 32px;
+                        }
+
+                        h3 {
+                            font-size: 32px;
+                        }
+
+                        p {
+                            padding: 5% 0 5% 0;
+                        }
+
+                        button {
+                            width: 100px;
+                            height: 50px
+                        }
                     }
                 }
+
             }
         }
 
-        .content_04_h2 {
-            width: 80%;
-            margin: 0 auto;
-            padding-top: 70px;
-            padding-bottom: 60px;
-
-            h2 {
-                font-size: 34px !important;
-            }
-
-            p {
-                display: none;
-            }
-
-            h3 {
-                font-weight: 500;
-                font-size: 20px !important;
-            }
-        }
-
-        .contents_04_zoon {
-            width: 80% ;
-            margin: 0 auto;
-            display: block;
-        }
 
 
         .swiper-button-prev {
-            left: -10px !important;
+            display: none;
+            left: 10px !important;
         }
 
         .slider .slick-dots {
             left: auto;
             right: 11% !important;
         }
+
+        .swiper-button-next {
+            display: none;
+            right: 0 !important;
+        }
     }
 }
 
-@media (max-width: 767px) {}
+@media (min-width: 375px) and (max-width: 776px) {
+    header {
+        .header_Middle {
+            display: none;
+        }
+    }
+
+    .visual {
+        width: 100%;
+
+        .contents {
+            .Text {
+                width: 100%;
+
+                .Top_text {
+                    padding-top: 200px !important;
+                    padding-left: 0 !important;
+
+                    p {
+                        font-size: 18px !important;
+
+                    }
+
+                    p::after {
+                        content: "";
+
+                        transform: translate(5px, 60px) !important;
+                    }
+                }
+
+                .cover {
+                    display: none;
+                }
+
+                .Middle_Logo {}
+
+                .Middle_Logo {
+                    figure {
+                        img {}
+                    }
+                }
+            }
+        }
+
+    }
+
+}
 
 
 // j 1600  ///  640 ///    390

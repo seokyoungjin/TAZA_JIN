@@ -70,7 +70,7 @@
     border:none;
     font-size:0;
     margin:0 10px;
-    
+
 }
 .slider .slick-dots li.slick-active button{
     background-color:#9A9A9A;
@@ -246,3 +246,14 @@
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+@media (min-width: 375px) and (max-width: 767px) {
+    .slider .slick-dots li button{
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+    }
+    .slider .slick-dots{
+        left: auto;
+        right: 11%;   
+    }
+}

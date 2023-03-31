@@ -752,18 +752,18 @@
                 font-size: 25px;
             }
         }
-        
+
 
         .contents_03 {
-            .contents_zoon_03{
+            .contents_zoon_03 {
                 width: 80%;
 
                 .img_Text_03 {
 
                     figure {
-                        figcaption{
+                        figcaption {
                             font-size: 24px;
-                            word-break:keep-all;
+                            word-break: keep-all;
                         }
                     }
 
@@ -774,23 +774,28 @@
                 }
             }
         }
-        .content_04_h2{
+
+        .content_04_h2 {
             width: 72%;
             margin: 0 auto;
             padding-top: 70px;
             padding-bottom: 60px;
-            h2{
+
+            h2 {
                 font-size: 38px;
             }
-            p{
+
+            p {
                 display: none;
             }
-            h3{
+
+            h3 {
                 font-weight: 500;
                 font-size: 25px;
             }
         }
-        .contents_04_zoon{
+
+        .contents_04_zoon {
             width: 80% !important;
         }
 
@@ -801,38 +806,45 @@
     }
 
 }
-@media (min-width: 777px) and (max-width: 1189px){
+
+@media (min-width: 777px) and (max-width: 1189px) {
     .wrap {
         header {
             .header-b {
                 justify-content: flex-end;
+
                 .header_Middle {
                     display: none;
+
                     ul {
-                        li {
-                        }
+                        li {}
                     }
                 }
             }
         }
-        .visual{
-            .contents{
-                .Text{
-                    .Top_text{
-                        p{
+
+        .visual {
+            .contents {
+                .Text {
+                    .Top_text {
+                        p {
                             font-size: 24px;
                         }
                     }
                 }
             }
         }
+
         main {
             .content_01 {
                 padding: 0;
 
                 .contents_zoon_01 {
+                    width: 80%;
+
                     .text_01 {
                         width: 50%;
+                        padding: 100px 0;
 
                         .text_h2 {
                             strong {
@@ -852,7 +864,8 @@
                             p {
                                 font-size: 16px;
                             }
-                            button{
+
+                            button {
                                 width: 100px;
                                 height: 50px;
                             }
@@ -861,7 +874,8 @@
 
                     .content_01_img {
                         width: 50%;
-                        padding: 400px 0;
+                        padding: 280px 0;
+
                         figure {
                             img {
                                 width: 80%;
@@ -869,13 +883,17 @@
                         }
 
                         .hover {
-                            top: 530px;
-                            right: -100px;
+                            position: absolute;
+                            top: 470px;
+
+                            right: -60px;
+
                             img {
                                 width: 40%;
                             }
 
                             p {
+                                display: none;
                                 font-size: 25px;
                                 transform: translate(90px, 145px);
                             }
@@ -903,7 +921,7 @@
 
             .flex {
                 h2 {
-                    font-size: 38px;
+                    font-size: 34px;
                 }
 
                 p {
@@ -913,54 +931,70 @@
             }
 
             h3 {
-                font-size: 25px;
+                font-size: 22px;
             }
         }
-        
+
 
         .contents_03 {
-            .contents_zoon_03{
+            .contents_zoon_03 {
                 width: 80%;
 
                 .img_Text_03 {
+                    padding-top: 110px;
 
                     figure {
-                        figcaption{
-                            font-size: 24px;
-                            word-break:keep-all;
+                        figcaption {
+                            font-size: 20px;
+                            word-break: keep-all;
                         }
                     }
 
                     .slick-prev {
-                        left: 88%;
+                        left: 75%;
                     }
 
+                    .slick-next {
+                        right: 10%;
+                    }
                 }
             }
         }
-        .content_04_h2{
-            width: 72%;
+
+        .content_04_h2 {
+            width: 80%;
             margin: 0 auto;
             padding-top: 70px;
             padding-bottom: 60px;
-            h2{
-                font-size: 38px;
+
+            h2 {
+                font-size: 34px !important;
             }
-            p{
+
+            p {
                 display: none;
             }
-            h3{
+
+            h3 {
                 font-weight: 500;
-                font-size: 25px;
+                font-size: 20px !important;
             }
         }
-        .contents_04_zoon{
-            width: 80% !important;
+
+        .contents_04_zoon {
+            width: 80% ;
+            margin: 0 auto;
+            display: block;
         }
 
 
         .swiper-button-prev {
             left: -10px !important;
+        }
+
+        .slider .slick-dots {
+            left: auto;
+            right: 11% !important;
         }
     }
 }

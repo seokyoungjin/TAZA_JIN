@@ -441,7 +441,16 @@ footer .inner .footer-massage {
   }
 }
 @media (min-width: 777px) and (max-width: 1189px) {
-  header list {
+  header .head {
+    padding: 0;
+    justify-content: space-around;
+  }
+  header .head .list {
     display: none;
+  }
+  header .head .logo a img {
+    margin-right: 0;
+    width: 80%;
+    height: auto;
   }
 }/*# sourceMappingURL=common.css.map */

@@ -884,12 +884,12 @@
 
                         .hover {
                             position: absolute;
-                            top: 470px;
+                            top: 50%;
 
                             right: -60px;
 
                             img {
-                                width: 40%;
+                                width: 50%;
                             }
 
                             p {
@@ -960,7 +960,7 @@
                 }
 
                 .img_Text_01 {
-                    display: none;
+                    // display: none;
                 }
             }
 
@@ -1097,7 +1097,13 @@
             display: none;
         }
     }
+    .slider .slick-dots{
+        left: 0 !important;
 
+    }
+    .wrap main .content_01{
+        padding-bottom: 40px;
+    }
     .wrap {
         overflow: hidden;
     }
@@ -1195,7 +1201,7 @@
         justify-content: center;
         width: 100%;
         background: #00000042;
-        height: 110px;
+        height: 90px;
         padding: 0;
         margin: 0;
     }
@@ -1259,6 +1265,96 @@
                 }
             }
         }
+        .contents_02 {
+            // height: 100vh;
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 70%;
+
+            .img_tittle {
+                height: 500px;
+                width: 150px;
+                padding-left: 0;
+                padding-top: 0;
+
+                h2 {
+                    margin-top: 180px;
+                    font-size: 30px;
+                    margin-left: 20px;
+                }
+
+                figure {
+                    display: none;
+                }
+
+                figcaption {
+                    font-size: 30px;
+                    margin-left: 20px;
+                }
+            }
+
+            .contents_zoon_02 {
+                padding-top: 90px;
+                // overflow: hidden;
+                .img_Text {
+                    width: 400px;
+                    height: 500px;
+
+                    .mini_bike_icon {
+                        left: 180px
+                    }
+
+                    .img_Text_02 {
+                        width: 90%;
+                        figure {
+                            figcaption {
+                                padding: 6px 0;
+
+                                p {
+                                    font-size: 20px;
+                                }
+
+                                small {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .img_Text_01 {
+                display: none;
+            }
+        }
+        .wrap .contents_02 .img_Text .mini_bike_icon{
+         top: -82px;
+        }
+        .wrap .contents_02 .img_tittle {
+            display: none;
+        }
+    }   
+    .swiper-button-prev {
+        left: 5px !important;
+        width: 8px !important;
+        height: 8px !important;
+    }
+    .swiper-button-next {
+        right: 10px !important;
+        width: 8px !important;
+        height: 8px !important;
+    }
+    .wrap .contents_02 .contents_zoon_02{
+        // width: 60%;
+    }
+    .wrap .contents_02 .contents_zoon_02 .img_Text .mini_bike_icon img{
+        width: 80%;
+    }
+    .wrap .contents_02 .img_Text .mini_bike_icon{
+        top: -84px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: var(--swiper-navigation-top-offset,80%);
     }
 }
 
